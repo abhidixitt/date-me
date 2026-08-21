@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="theme-color"
+    content="#ff4f81"
+  >
+
+  <meta
+    name="description"
+    content="A very important question ❤️"
+  >
+
+  <title>
+    A Very Important Question ❤️
+  </title>
+
+
+  <!-- Google Font -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- Main CSS -->
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+
+<body>
+
+  <main class="page">
+
+    <!-- ======================================================
+         FLOATING HEARTS
+         ====================================================== -->
+
+    <div
+      class="hearts"
+      aria-hidden="true"
+    ></div>
+
+
+    <!-- ======================================================
+         QUESTION SCREEN
+         ====================================================== -->
+
+    <section
+      class="card"
+      id="questionCard"
+      aria-live="polite"
+    >
+
+      <div class="emoji">
+        🥺
+      </div>
+
+
+      <p class="eyebrow">
+        A VERY IMPORTANT QUESTION
+      </p>
+
+
+      <h1>
+        Hey
+        <span class="name">
+          Beautiful
+        </span>
+        ...
+      </h1>
+
+
+      <p
+        class="question"
+        id="questionText"
+      >
+        Would you like to go out with me? ❤️
+      </p>
+
+
+      <p
+        class="hint"
+        id="hintText"
+      >
+        Choose carefully. This decision may have consequences. 😌
+      </p>
+
+
+      <!-- ====================================================
+           BUTTON AREA
+           ==================================================== -->
+
+      <div class="buttons">
+
+        <button
+          class="yes-btn"
+          id="yesBtn"
+          type="button"
+        >
+          YES ❤️
+        </button>
+
+
+        <button
+          class="no-btn"
+          id="noBtn"
+          type="button"
+        >
+          NO 😭
+        </button>
+
+      </div>
+
+
+      <p
+        class="attempts"
+        id="attemptsText"
+      ></p>
+
+    </section>
+
+
+    <!-- ======================================================
+         SUCCESS SCREEN
+         ====================================================== -->
+
+    <section
+      class="success-card hidden"
+      id="successCard"
+      aria-live="assertive"
+    >
+
+      <div class="success-emoji">
+        🎉
+      </div>
+
+
+      <p class="eyebrow">
+        MISSION ACCOMPLISHED
+      </p>
+
+
+      <h2>
+        YAYYYYY! ❤️
+      </h2>
+
+
+      <p class="success-title">
+        Congratulations,
+        <span class="name">
+          Beautiful
+        </span>
+        !
+      </p>
+
+
+      <p class="success-message">
+        You have officially accepted my invitation
+        to go out with me. 😎❤️
+      </p>
+
+
+      <div class="date-ticket">
+
+        <div class="ticket-icon">
+          💌
+        </div>
+
+        <div>
+
+          <strong>
+            DATE STATUS
+          </strong>
+
+          <span>
+            CONFIRMED ✅
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <p class="final-note">
+
+        I knew you'd make the right choice. 😌
+        <br>
+        Now get ready for a very good time with me. ❤️
+
+      </p>
+
+
+      <button
+        class="again-btn"
+        id="againBtn"
+        type="button"
+      >
+        Replay the chaos 😂
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <!-- ========================================================
+       TOAST
+       ======================================================== -->
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+  ></div>
+
+
+  <!-- ========================================================
+       CONFETTI
+       ======================================================== -->
+
+  <div
+    class="confetti-container"
+    id="confettiContainer"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- ========================================================
+       JAVASCRIPT
+       ======================================================== -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
