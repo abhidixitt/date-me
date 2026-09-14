@@ -3,7 +3,7 @@
 // ============================================================
 
 const CONFIG = {
-  herName: "Kalpna",
+  herName: "Bhavna Dwivedi (Silent Sunshine ❤️)",
 
   question: "Would you like to go out with me? ❤️",
 
